@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T00:49:39.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fIDDia5OBuNcqik6VLwl" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T00:54:48.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yrKlF07udvNP_ZTxxkR9" version="21.5.1" type="github">
   <diagram name="第 1 页" id="VvUkeJPX31CjZcMAp55T">
     <mxGraphModel dx="954" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,19 +22,19 @@
             <mxPoint x="550" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-8" value="构建打赏信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="230" width="140" height="70" as="geometry" />
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-8" value="构建打赏信息" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-9" value="创建支付交易订单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-9" value="创建支付交易订单" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="490" y="340" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-10" value="保存打赏数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-10" value="保存打赏数据" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="460" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-11" value="构建礼物特效" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-11" value="构建礼物特效" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="680" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-12" value="通知业务方" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-12" value="通知业务方" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="570" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKw8hlUGmrOTsNG2Bbb0-14" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WKw8hlUGmrOTsNG2Bbb0-4" target="WKw8hlUGmrOTsNG2Bbb0-8">
@@ -78,7 +78,7 @@
             <mxPoint x="420" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-21" value="创建交易订单号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-21" value="创建交易订单号" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="860" y="280" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKw8hlUGmrOTsNG2Bbb0-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WKw8hlUGmrOTsNG2Bbb0-21">
@@ -92,7 +92,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-24" value="入参校验" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-24" value="入参校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="-150" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKw8hlUGmrOTsNG2Bbb0-26" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WKw8hlUGmrOTsNG2Bbb0-24">
@@ -101,7 +101,7 @@
             <mxPoint x="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-27" value="直播间校验" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-27" value="直播间校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="500" y="-150" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKw8hlUGmrOTsNG2Bbb0-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.336;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WKw8hlUGmrOTsNG2Bbb0-27">
@@ -110,14 +110,50 @@
             <mxPoint x="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-29" value="直播间信息校验" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="-280" width="140" height="70" as="geometry" />
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-29" value="直播间信息校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-330" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-30" value="受赏人校验" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="-280" width="140" height="70" as="geometry" />
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-30" value="受赏人校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-330" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-31" value="打赏人受赏人关系校验" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="-280" width="140" height="70" as="geometry" />
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-31" value="打赏人受赏人关系校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-32" value="资产礼物校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-34" value="礼物打赏人约束校验" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-35" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="WKw8hlUGmrOTsNG2Bbb0-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="20" as="sourcePoint" />
+            <mxPoint x="720" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-36" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WKw8hlUGmrOTsNG2Bbb0-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="40" as="sourcePoint" />
+            <mxPoint x="730" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-37" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.629;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WKw8hlUGmrOTsNG2Bbb0-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="-150" as="sourcePoint" />
+            <mxPoint x="700" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WKw8hlUGmrOTsNG2Bbb0-27" target="WKw8hlUGmrOTsNG2Bbb0-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="-140" as="sourcePoint" />
+            <mxPoint x="458" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-39" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.364;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKw8hlUGmrOTsNG2Bbb0-27" target="WKw8hlUGmrOTsNG2Bbb0-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="-130" as="sourcePoint" />
+            <mxPoint x="468" y="-240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
