@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T05:49:56.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DUCW5Gnzx33jGZluGY3R" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T05:57:13.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="K5xppf77yO3iZ1K1hLC8" version="21.5.2" type="github">
   <diagram name="第 1 页" id="VvUkeJPX31CjZcMAp55T">
     <mxGraphModel dx="2020" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="150" y="810" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKw8hlUGmrOTsNG2Bbb0-12" value="通知业务方" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="370" y="860" width="140" height="70" as="geometry" />
+          <mxGeometry x="340" y="825" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="WKw8hlUGmrOTsNG2Bbb0-14" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="WKw8hlUGmrOTsNG2Bbb0-4" target="WKw8hlUGmrOTsNG2Bbb0-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -66,7 +66,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WKw8hlUGmrOTsNG2Bbb0-4" target="WKw8hlUGmrOTsNG2Bbb0-12" edge="1">
+        <mxCell id="WKw8hlUGmrOTsNG2Bbb0-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WKw8hlUGmrOTsNG2Bbb0-4" target="WKw8hlUGmrOTsNG2Bbb0-12" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="280" y="490" as="sourcePoint" />
             <mxPoint x="440" y="490" as="targetPoint" />
@@ -528,6 +528,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="580" y="890" as="sourcePoint" />
             <mxPoint x="740" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NdA9s5oNdxqppXdedLkg-105" value="打赏信息发送kafka（xxq-trade_REWARD-LIVE&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NdA9s5oNdxqppXdedLkg-106" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="NdA9s5oNdxqppXdedLkg-105">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="890" as="sourcePoint" />
+            <mxPoint x="560" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
