@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T08:20:09.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CH-CEsDRRW4E1lB54gZ8" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T09:59:42.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M4JUjdIMVYEUVses_6ry" version="21.5.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2585" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -156,6 +156,32 @@
         </mxCell>
         <mxCell id="afariw2JvGyVfo-4Ed1I-76" value="礼物中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-265" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="" link="https://flink.apache.org/flink-header-logo.svg" id="afariw2JvGyVfo-4Ed1I-77">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="130" y="2920" width="470" height="430" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-78" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://flink.apache.org/flink-header-logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="258.55" y="3087.4" width="242.9" height="125.2" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-80" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="2980" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-81" value="Hbase" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="3110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-82" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="3250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-86" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="3000" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-87" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="3130" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-88" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="3250" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
