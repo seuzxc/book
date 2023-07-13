@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T09:59:42.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M4JUjdIMVYEUVses_6ry" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T10:00:58.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sRVgyyoaCVTScBrwqEt6" version="21.5.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2585" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -182,6 +182,12 @@
         </mxCell>
         <mxCell id="afariw2JvGyVfo-4Ed1I-88" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
           <mxGeometry x="-180" y="3250" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-89" value="ClickHouse" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="3030" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="afariw2JvGyVfo-4Ed1I-91" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820" y="3230" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
