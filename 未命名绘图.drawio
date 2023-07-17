@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T08:07:30.554Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YeebLnBuvU_cW48xYmaj" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T08:14:43.606Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ilcrfMpwkj4TEVPkjf1e" version="21.6.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2213" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -187,10 +187,10 @@
           <mxGeometry x="195" y="6650" width="295" height="590" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-6" value="打赏" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="520" y="6640" width="640" height="590" as="geometry" />
+          <mxGeometry x="520" y="6640" width="730" height="590" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-8" value="通知管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="980" y="6705" width="166" height="485" as="geometry" />
+          <mxGeometry x="1055" y="6700" width="166" height="485" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-30" value="直播间礼物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="6700" width="102" height="50" as="geometry" />
@@ -214,22 +214,22 @@
           <mxGeometry x="619.76" y="740" width="60.29" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-46" value="打赏记录管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="6646" width="185" height="570" as="geometry" />
+          <mxGeometry x="1270" y="6646" width="185" height="570" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-47" value="发送直播间礼物消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1012.45" y="6890" width="82.5" height="50" as="geometry" />
+          <mxGeometry x="1087.45" y="6885" width="82.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-48" value="发送榜单消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1012.45" y="6747.5" width="102.55" height="50" as="geometry" />
+          <mxGeometry x="1087.45" y="6742.5" width="102.55" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-49" value="发送公会消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1012.45" y="6820" width="92.55" height="50" as="geometry" />
+          <mxGeometry x="1087.45" y="6815" width="92.55" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-50" value="打赏明细记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1212.5" y="6690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1302.5" y="6690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-51" value="打赏人汇总记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1215" y="6775" width="120" height="60" as="geometry" />
+          <mxGeometry x="1302.5" y="6772.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-52" value="直播间粉丝团礼物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="214" y="6952.5" width="96" height="57.5" as="geometry" />
@@ -247,25 +247,25 @@
           <mxGeometry x="565" y="6785" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-57" value="准入校验" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="717.5" y="6705" width="240" height="145" as="geometry" />
+          <mxGeometry x="717.5" y="6705" width="302.5" height="145" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-58" value="礼物校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="729" y="6730" width="65" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-59" value="打赏人校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="809" y="6730" width="65" height="45" as="geometry" />
+          <mxGeometry x="825" y="6735" width="65" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-60" value="受赏人校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="884" y="6732.5" width="65" height="45" as="geometry" />
+          <mxGeometry x="927.5" y="6736.25" width="65" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-61" value="直播间校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="884" y="6790" width="65" height="45" as="geometry" />
+          <mxGeometry x="927.5" y="6797.5" width="65" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-62" value="打赏业务校验(数量/金额)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="729" y="6797.5" width="65" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-63" value="资产校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="809" y="6790" width="65" height="45" as="geometry" />
+          <mxGeometry x="825" y="6797.5" width="65" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-64" value="礼物玩法" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="545" y="6870" width="255" height="160" as="geometry" />
@@ -289,16 +289,16 @@
           <mxGeometry x="725" y="6958.75" width="70" height="45" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-71" value="交易管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="825" y="6870" width="132.5" height="160" as="geometry" />
+          <mxGeometry x="815" y="6875" width="210" height="155" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-72" value="生产交易号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="6907.5" width="60" height="42" as="geometry" />
+          <mxGeometry x="855" y="6907.5" width="60" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-73" value="支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="899" y="6908.5" width="50" height="41" as="geometry" />
+          <mxGeometry x="935" y="6908.5" width="50" height="41" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-74" value="打赏记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="832.5" y="6968" width="55" height="42" as="geometry" />
+          <mxGeometry x="855" y="6968" width="55" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-75" value="礼物特效" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="552.5" y="7060" width="237.5" height="150" as="geometry" />
@@ -322,16 +322,34 @@
           <mxGeometry x="715" y="7150" width="65" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-83" value="受赏人汇总记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1215" y="6870" width="120" height="60" as="geometry" />
+          <mxGeometry x="1302.5" y="6860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-84" value="发送直播间告白消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1012.45" y="6964" width="82.5" height="50" as="geometry" />
+          <mxGeometry x="1087.45" y="6959" width="82.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-85" value="发送火箭礼物消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1012.45" y="7040" width="82.5" height="50" as="geometry" />
+          <mxGeometry x="1087.45" y="7035" width="82.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-86" value="发送世界礼物消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1012.45" y="7120" width="82.5" height="50" as="geometry" />
+          <mxGeometry x="1087.45" y="7115" width="82.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-89" value="打赏信息" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="810" y="7060" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-90" value="礼物信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="817" y="7090" width="63" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-91" value="打赏人信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="819" y="7150" width="61" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-92" value="受赏人信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="7090" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-93" value="公会信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="7150" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-94" value="资产信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="7090" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
