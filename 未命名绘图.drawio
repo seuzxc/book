@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T03:56:27.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7geFVXUVrsv5TgVGZLgh" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T03:57:06.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kikaX1ayoThtPYAh8dIb" version="21.6.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2122" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
           <mxGeometry x="800" y="6780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-18" value="构建交易订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="586.45" y="6870" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="6880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-19" value="支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="805" y="6865" width="120" height="60" as="geometry" />
@@ -244,7 +244,7 @@
           <mxGeometry x="208" y="6795" width="102" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-32" value="构建打赏信息&lt;br&gt;1、打赏人&lt;br&gt;2、受赏人&lt;br&gt;3、礼物信息&lt;br&gt;4、房间信息&lt;br&gt;5、打赏金额/数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="6750" width="160" height="120" as="geometry" />
+          <mxGeometry x="590" y="6750" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-33" value="存储打赏结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="373" y="6865" width="102" height="50" as="geometry" />
@@ -284,6 +284,12 @@
         </mxCell>
         <mxCell id="6z_JIGFKxQZGrFoW06kK-49" value="贡献" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1005" y="7090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-50" value="打赏记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="6700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6z_JIGFKxQZGrFoW06kK-51" value="打赏汇总记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="6805" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
