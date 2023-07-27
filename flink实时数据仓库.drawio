@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T05:56:23.551Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.3" etag="unYwQaF0Q8OLNrrYtX-H" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T05:56:33.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LIXmRWL9Fz3ppSY_aRth" version="21.6.3" type="github">
   <diagram name="第 1 页" id="oxg19eHA6-CcMaRxcR4n">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="-579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=default;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="1690.536923076923" as="sourcePoint" />
+            <mxPoint x="450" y="1688.46" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="399" y="1690.46" />
+              <mxPoint x="461" y="1691.46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-2" value="数据源" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1520" width="170" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-3" value="访问日志" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-4" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-5" value="业务消息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=default;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="dJzAQ0Oe_yHkAVioRpTi-7" target="dJzAQ0Oe_yHkAVioRpTi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-7" value="ods层" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1520" width="150" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-8" value="kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=default;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="dJzAQ0Oe_yHkAVioRpTi-10" target="dJzAQ0Oe_yHkAVioRpTi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-10" value="flink transform" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1520" width="160" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-11" value="flink 通过groovy 过滤" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-12" value="flink做简单的聚合、转换" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=default;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="dJzAQ0Oe_yHkAVioRpTi-14" target="dJzAQ0Oe_yHkAVioRpTi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-14" value="flink transform（flatmap）" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1520" width="140" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-15" value="flink幂等处理 处理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1657.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="dJzAQ0Oe_yHkAVioRpTi-17" target="dJzAQ0Oe_yHkAVioRpTi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-17" value="flink sink" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1520" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-18" value="Clickhouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1650" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-19" value="应用层" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1520" width="110" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-20" value="可视化展示" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="1570" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-21" value="sql分析" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="1718" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dJzAQ0Oe_yHkAVioRpTi-22" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;flink 读取数据平铺处理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
