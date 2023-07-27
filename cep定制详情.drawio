@@ -1,9 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T05:59:11.515Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.3" etag="yh1g9jhcmXbjSUPYwpPO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T06:00:19.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kCkMSXIO9CIf6XQiuG3-" version="21.6.3" type="github">
   <diagram name="第 1 页" id="9DcLRGT_du6rIVWENZZ9">
-    <mxGraphModel>
+    <mxGraphModel dx="1272" dy="-1505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-2" target="q5AjnhcEnNjp-n8wWTzs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-2" value="后台配置的pattern数据(mysql中)周期性的广播到主事件流" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2960" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-4" target="q5AjnhcEnNjp-n8wWTzs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-4" value="kafka事件流" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="355" y="3160" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-6" target="q5AjnhcEnNjp-n8wWTzs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-6" value="N个pattern和M条事件记录组合成N*M的事件流数据" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3160" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-8" target="q5AjnhcEnNjp-n8wWTzs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-8" value="keyBy(按照用户或者设备分组)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="890" y="3160" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-13" target="q5AjnhcEnNjp-n8wWTzs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-10" value="open" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;fontColor=#393C56;" vertex="1" connectable="0" parent="q5AjnhcEnNjp-n8wWTzs-9">
+          <mxGeometry x="0.1274" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-13" target="q5AjnhcEnNjp-n8wWTzs-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550.0000000000005" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-12" value="process" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;fontColor=#393C56;" vertex="1" connectable="0" parent="q5AjnhcEnNjp-n8wWTzs-11">
+          <mxGeometry x="-0.1231" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-13" value="扩展的算子(DynamicCepOperator)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="3160" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-14" value="算子open方法根据Pattern数量构建多个NFA" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2960" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-17" target="q5AjnhcEnNjp-n8wWTzs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-16" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;fontColor=#393C56;" vertex="1" connectable="0" parent="q5AjnhcEnNjp-n8wWTzs-15">
+          <mxGeometry x="-0.425" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-17" value="检查当前算子中pattern和配置中的pattern是否一致" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="3300" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-18" value="YES" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-17" target="q5AjnhcEnNjp-n8wWTzs-21">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1500" y="3470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-19" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(避免不断查询，配置的pattern&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;会在变更后周期性的刷新到redis，&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;然后算子中查询基本上时给予内存)&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#d6b656;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=20;fontFamily=Architects Daughter;labelBackgroundColor=#E6E6E6;shadow=1;rounded=1;glass=0;dashed=1;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3330" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-21" target="q5AjnhcEnNjp-n8wWTzs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-21" value="刷新Pattern对应的NFA，同时清理NFA关联的状态数据" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="3470" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="q5AjnhcEnNjp-n8wWTzs-23" target="q5AjnhcEnNjp-n8wWTzs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-23" value="当前事件筛选出其关联的NFA进行模式匹配处理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="3580" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-24" value="匹配到结果或则超时结果处理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="860" y="3580" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q5AjnhcEnNjp-n8wWTzs-25" value="从配置到NFA这中间利用了&lt;br&gt;groovy脚本动态的构建Pattern" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#d79b00;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontSize=20;fontFamily=Architects Daughter;labelBackgroundColor=#E6E6E6;sketch=1;curveFitting=1;jiggle=2;shadow=1;rounded=1;glass=0;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2960" width="290" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
