@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T08:45:11.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="W9sCuiXXpldLCQrv-ggN" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T10:18:15.360Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8M0gjsKMXvTdS-0jrahb" version="21.8.0" type="github">
   <diagram name="第 1 页" id="9ZdvMQ7VP3vkYu2ddhah">
-    <mxGraphModel dx="2332" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,7 +162,7 @@
         <mxCell id="6iuzxFg5Ye--7esHgjVi-58" value="分配价值给干系人" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="300" y="1120" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6iuzxFg5Ye--7esHgjVi-69" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;《聚合根》&lt;br&gt;RewardOrder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: String&lt;br&gt;+ user: User&lt;br&gt;+ receiveUsers: List&amp;lt;User&amp;gt;&lt;br&gt;+ liveInfo: LiveRoom&lt;br&gt;+ payTradeNo&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calculateOrderAmount(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+        <mxCell id="6iuzxFg5Ye--7esHgjVi-69" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;《聚合根》&lt;br&gt;RewardOrder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: String&lt;br&gt;+ user: User&lt;br&gt;+ receiveUsers: List&amp;lt;User&amp;gt;&lt;br&gt;+ liveInfo: LiveRoom&lt;br&gt;+ payTradeNo&lt;br&gt;+ status&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calculateOrderAmount(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
           <mxGeometry x="495" y="1550" width="165" height="170" as="geometry" />
         </mxCell>
         <mxCell id="6iuzxFg5Ye--7esHgjVi-70" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;《打赏项实体》&lt;br&gt;RewardItem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ receiverUid: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;rewarderUid: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ count: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rewardGift: RewardGift&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
@@ -188,7 +188,7 @@
           <mxGeometry x="485" y="1810" width="165" height="110" as="geometry" />
         </mxCell>
         <mxCell id="D9V0zbqLB6DABYj4kwtS-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;《公会实体》&lt;br&gt;Union&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ unionId: Long&lt;br&gt;+ unionAccount: String&lt;br&gt;+ unioncompanyId: Long&lt;br&gt;+ anchorShareRate：&amp;nbsp;BigDecimal&lt;br&gt;+settleType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1795" width="195" height="140" as="geometry" />
+          <mxGeometry x="880" y="1855" width="195" height="140" as="geometry" />
         </mxCell>
         <mxCell id="D9V0zbqLB6DABYj4kwtS-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;《直播间实体》&lt;br&gt;LiveRoom&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ liveId: Long&lt;br&gt;+ hostId: Long&lt;br&gt;+ liveRoomId: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="960" y="1580" width="165" height="90" as="geometry" />
@@ -344,8 +344,11 @@
             <mxPoint x="550" y="2350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D9V0zbqLB6DABYj4kwtS-93" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;领域服务&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;RewardOrderService&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 19px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ createReward(order: RewardOrder): RewardOrder&lt;br&gt;&lt;br&gt;+ payOrder(order: RewardOrder): RewardOrder&lt;br&gt;&lt;br&gt;+ getRewardOrder(orderId: Long): RewardOrder&lt;br&gt;&lt;br&gt;+ getRewards(uid: Long): List&amp;lt;RewardOrder&amp;gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="570" y="3280" width="465" height="400" as="geometry" />
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;" edge="1" parent="1" source="D9V0zbqLB6DABYj4kwtS-93" target="D9V0zbqLB6DABYj4kwtS-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-93" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;领域服务&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;RewardOrderService&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 19px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ place(order: RewardRequstVO): RewardOrder&lt;br&gt;&lt;br&gt;+ pay(order: RewardOrder): RewardOrder&lt;br&gt;&lt;br&gt;+ getRewards(uid: Long): List&amp;lt;RewardOrder&amp;gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="545" y="3000" width="465" height="280" as="geometry" />
         </mxCell>
         <mxCell id="D9V0zbqLB6DABYj4kwtS-95" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="D9V0zbqLB6DABYj4kwtS-68" target="6iuzxFg5Ye--7esHgjVi-70">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -353,8 +356,41 @@
             <mxPoint x="420" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D9V0zbqLB6DABYj4kwtS-96" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;领域服务&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;RewardApplicationService&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 19px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ giveReward()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="2700" width="465" height="400" as="geometry" />
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-96" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;应用服务&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;RewardApplicationService&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 19px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;+ giveReward()&lt;br&gt;&lt;br&gt;+ getRewards(uid: Long)&lt;br&gt;&lt;br&gt;+ sendNotification()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="2700" width="465" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-98" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" target="D9V0zbqLB6DABYj4kwtS-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="2890" as="sourcePoint" />
+            <mxPoint x="800" y="2840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="D9V0zbqLB6DABYj4kwtS-99" target="6iuzxFg5Ye--7esHgjVi-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-99" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;《值对象》&lt;br&gt;RewardStatus&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1670" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-101" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;《值对象》&lt;br&gt;PayedSuccess&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-104" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;《值对象》&lt;br&gt;PayedFailed&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-105" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="D9V0zbqLB6DABYj4kwtS-99">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="1770" as="sourcePoint" />
+            <mxPoint x="890" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-106" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="D9V0zbqLB6DABYj4kwtS-99">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="880" y="1770" as="sourcePoint" />
+            <mxPoint x="1040" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9V0zbqLB6DABYj4kwtS-108" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 19px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;《聚合》&lt;br&gt;RewardOrder&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 19px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 19px;&quot;&gt;+ calGiftValue(): GiftValue&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;+ buildSpecialEffects: List&amp;lt;SpecialEffect&amp;gt;&lt;br&gt;&lt;br&gt;+ buildPayTransactions(): List&amp;lt;?&amp;gt;&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="535" y="3440" width="395" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
